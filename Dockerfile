@@ -1,4 +1,4 @@
-FROM --platform=amd64 node:14.16.0
+FROM --platform=amd64 node:14.21.0
 WORKDIR /app
 COPY gulp /app/
 # COPY CHANGELOG.md /app/
